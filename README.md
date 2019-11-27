@@ -1,6 +1,6 @@
 # AWS Dynamic DNS
 
-Use AWS DNS for a dynamic DNS pointer, complete with subdomains and live
+Use AWS DNS for a Dynamic IP DNS updater, complete with subdomains and live
 modifiable zonefile.
 
 ## Usage
