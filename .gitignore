@@ -1,0 +1,18 @@
+# based on pycommon v0.1
+*.pyc
+*~
+\#*\#
+\.\#*
+*/__pycache__/
+build/*
+.cache/*
+env/*
+.coverage
+.coverage3.svg
+*monkeytype.sqlite3
+.mypy_cache
+*.egg-info/*
+dist/*
+pip-selfcheck.json
+.eggs/*
+
