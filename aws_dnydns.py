@@ -28,7 +28,8 @@ def get_templates(path_of_templates: str) -> Dict[str, str]:
         if not i.endswith(".zonefile-template"):
             continue
         key = i.split(".zonefile-template")[0]
-        templates[key] = open(i).read()
+        uri = os.path.join(path_of_templates, i)
+        templates[key] = open(uri).read()
     return templates
 
 
